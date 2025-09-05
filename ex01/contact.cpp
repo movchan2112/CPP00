@@ -3,7 +3,7 @@
 Contact::Contact()
     : _firstName(""),_lastName(""),_nickname(""),_phoneNumber(""),_darkestSecret(""){}
 
-Contact::Contact(const std::string& firstName, const std::string& lastName,
+Contact::Contact(const std::string firstName, const std::string& lastName,
                  const std::string& nickname, const std::string& phoneNumber,
                  const std::string& darkestSecret)
     : _firstName(firstName), _lastName(lastName), _nickname(nickname),

@@ -3,7 +3,7 @@
 
 #include <iomanip>
 #include "contact.hpp"
-const int len = 8;
+const int len = 2;
 
 class PhoneBook{
 private:
